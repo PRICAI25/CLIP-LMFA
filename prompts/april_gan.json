@@ -1,0 +1,24 @@
+{
+  "abnormal": {
+    "instruction": "Give 100 prompts that describe a photo of a damaged object. Do not mention specific object name. \nGive your outputs in JSON format.",
+    "prompts": [
+      "damaged {classname}",
+      "broken {classname}",
+      "{classname} with flaw",
+      "{classname} with defect",
+      "{classname} with damage"
+    ]
+  },
+  "normal": {
+    "instruction": "Give 100 prompts that describe a photo of an undamaged object. Do not mention specific object name. \nGive your outputs in JSON format.",
+    "prompts": [
+      "{classname}",
+      "flawless {classname}",
+      "perfect {classname}",
+      "unblemished {classname}",
+      "{classname} without flaw",
+      "{classname} without defect",
+      "{classname} without damage"
+    ]
+  }
+}
