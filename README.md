@@ -1,7 +1,7 @@
-[CLIP-LMFA: Few-Shot Anomaly Detection via Large Language Model-Driven Hybrid Prompts and Multi-Scale Adaptive Fusion](https://arxiv.org/abs/2409.00556)
+[CLIP-LMFA: Few-Shot Anomaly Detection via Large Language Model-Driven Hybrid Prompts and Multi-Scale Adaptive Fusion]
 ---
 This repository contains the official PyTorch implementation of 
-[CLIP-LMFA: Few-Shot Anomaly Detection via Large Language Model-Driven Hybrid Prompts and Multi-Scale Adaptive Fusion](https://arxiv.org/abs/2409.00556)
+[CLIP-LMFA: Few-Shot Anomaly Detection via Large Language Model-Driven Hybrid Prompts and Multi-Scale Adaptive Fusion]
 
 <p align="center">
     <img src="media/img.png" alt="study" width="70%">
@@ -19,14 +19,14 @@ poetry install
 ```
 
 ### Download evaluation datasets
-dataset can be downloaded from  https://pan.baidu.com/s/1teAtRxEqCCCxrwvb81Zenw?pwd=vtic Extraction code: vtic 
+dataset can be downloaded from  https://pan.baidu.com/s/1teAtRxEqCCCxrwvb81Zenw?pwd=vtic
 
 
 ## Running CLIP-LMFA
 The algorithm does not require any funetuning nor auxiliary training datasets.
 `scripts/run_fade.py` allows running evaluation on various datasets and:
 1) compute text and visual features, the type of features, CLIP or GEM, is specified through command line arguments.
-2) build a memory bank for few-shot anomaly detection if the non-zero number of shots is chosen.
+
 
 To evaluate on a custom dataset please use `datasets.BaseDataset` as a base class. 
 For the full set of command line arguments please refer to the click descriptions in `scripts/run_fade.py`.
