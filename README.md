@@ -19,8 +19,8 @@ poetry install
 ```
 
 ### Download evaluation datasets
-* **MVTec-AD** dataset can be downloaded from https://www.mvtec.com/company/research/datasets/mvtec-ad
-* **VisA** dataset can be downloaded from https://paperswithcode.com/dataset/visa
+dataset can be downloaded from  https://pan.baidu.com/s/1teAtRxEqCCCxrwvb81Zenw?pwd=vtic Extraction code: vtic 
+
 
 ## Running CLIP-LMFA
 The algorithm does not require any funetuning nor auxiliary training datasets.
@@ -67,13 +67,5 @@ to `language` or `vision` respectively.
 If our work is helpful for your research please consider citing:
 
 ```
-@misc{li2024fade,
-      title={FADE: Few-shot/zero-shot Anomaly Detection Engine using Large Vision-Language Model}, 
-      author={Yuanwei Li and Elizaveta Ivanova and Martins Bruveris},
-      year={2024},
-      eprint={2409.00556},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2409.00556}, 
-}
+
 ```
